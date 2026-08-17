@@ -5,7 +5,6 @@ on: push
 jobs:
  say-hello:
   runs-on: ubuntu-latest
-
-steps:
+  steps:
    -name: Print a greeting
   run: echo "Hello from the robot!"
